@@ -1,0 +1,37 @@
+Apache Ant(TM) version 1.10.5 compiled on March 28 2019
+Trying the default build file: build.xml
+Buildfile: /home/oem/eclipse-workspace/elmitriangle/build.xml
+Adding reference: ant.PropertyHelper
+Detected Java version: 11 in: /usr/lib/jvm/java-11-openjdk-amd64
+Detected OS: Linux
+Adding reference: ant.ComponentHelper
+Setting ro project property: ant.file -> /home/oem/eclipse-workspace/elmitriangle/build.xml
+Setting ro project property: ant.file.type -> file
+Setting ro project property: ant.project.invoked-targets -> compile
+Adding reference: ant.projectHelper
+Adding reference: ant.parsing.context
+Adding reference: ant.targets
+parsing buildfile /home/oem/eclipse-workspace/elmitriangle/build.xml with URI = file:/home/oem/eclipse-workspace/elmitriangle/build.xml
+Project base dir set to: /home/oem/eclipse-workspace/elmitriangle
+ +Target: 
+ +Target: clean
+ +Target: compile
+ +Target: tests
+Adding reference: ant.LocalProperties
+Setting ro project property: ant.project.invoked-targets -> compile
+Attempting to create object of type org.apache.tools.ant.helper.DefaultExecutor
+Adding reference: ant.executor
+Build sequence for target(s) `compile' is [compile]
+Complete build sequence is [compile, clean, tests, ]
+
+compile:
+parsing buildfile jar:file:/usr/share/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/usr/share/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+    [mkdir] Created dir: /home/oem/eclipse-workspace/elmitriangle/bin
+    [javac] /home/oem/eclipse-workspace/elmitriangle/build.xml:8: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+fileset: Setup scanner in dir /home/oem/eclipse-workspace/elmitriangle/src with patternSet{ includes: [] excludes: [] }
+    [javac] TPtraingle.java added as TPtraingle.class doesn't exist.
+    [javac] elmitriangle/TPtraingle.java added as elmitriangle/TPtraingle.class doesn't exist.
+    [javac] elmitriangle/tptriangle.java added as elmitriangle/tptriangle.class doesn't exist.
+    [javac] elmitriangle/trianglgenum.java added as elmitriangle/trianglgenum.class doesn't exist.
+    [javac] tptriangle.java added as tptriangle.class doesn't exist.
+    [javac] trianglgenum.java added as trianglgenum.class doesn't exist.

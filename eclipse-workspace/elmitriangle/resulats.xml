@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="elmi" name="TPtraingle" skipped="0" tests="1" time="0.072" timestamp="2020-03-13T23:12:01">
+  <properties>
+    <property name="sun.desktop" value="gnome" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="ant.library.dir" value="/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib" />
+    <property name="java.specification.version" value="11" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.class.path" value="/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-antlr.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-bcel.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-bsf.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-log4j.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-oro.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-regexp.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-resolver.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-xalan2.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-commons-logging.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-commons-net.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-jai.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-javamail.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-jdepend.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-jmf.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-jsch.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-junit.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-junit4.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-junitlauncher.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-launcher.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-netrexx.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-swing.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-testutil.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-xz.jar:/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant.jar:/home/oem/.eclipse/360744294_linux_gtk_x86_64/configuration/org.eclipse.osgi/60/0/.cp/lib/antdebug.jar:/home/oem/.eclipse/360744294_linux_gtk_x86_64/configuration/org.eclipse.osgi/60/0/.cp/lib/remote.jar:/home/oem/.eclipse/360744294_linux_gtk_x86_64/configuration/org.eclipse.osgi/61/0/.cp/lib/remoteAnt.jar:/snap/eclipse/40/plugins/org.eclipse.swt.gtk.linux.x86_64_3.110.0.v20190305-0602.jar" />
+    <property name="java.vm.vendor" value="Ubuntu" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.vendor.url" value="https://ubuntu.com/" />
+    <property name="user.timezone" value="" />
+    <property name="java.vm.specification.version" value="11" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="FR" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1584141119024 -Declipse.connect.port=35335 -Declipse.pdebuild.home=/snap/eclipse/40/../../../home/oem/.eclipse/360744294_linux_gtk_x86_64/plugins/org.eclipse.pde.build_3.10.300.v20190305-0856/. -Declipse.pdebuild.scripts=/snap/eclipse/40/../../../home/oem/.eclipse/360744294_linux_gtk_x86_64/plugins/org.eclipse.pde.build_3.10.300.v20190305-0856/scripts -Declipse.pdebuild.templates=/snap/eclipse/40/../../../home/oem/.eclipse/360744294_linux_gtk_x86_64/plugins/org.eclipse.pde.build_3.10.300.v20190305-0856/templates -Dant.home=/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /home/oem/eclipse-workspace/elmitriangle/build.xml tests" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="/home/oem" />
+    <property name="user.language" value="fr" />
+    <property name="eclipse.pdebuild.templates" value="/snap/eclipse/40/../../../home/oem/.eclipse/360744294_linux_gtk_x86_64/plugins/org.eclipse.pde.build_3.10.300.v20190305-0856/templates" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2020-01-14" />
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64" />
+    <property name="basedir" value="/home/oem/eclipse-workspace/elmitriangle" />
+    <property name="file.separator" value="/" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="eclipse.pdebuild.home" value="/snap/eclipse/40/../../../home/oem/.eclipse/360744294_linux_gtk_x86_64/plugins/org.eclipse.pde.build_3.10.300.v20190305-0856/." />
+    <property name="line.separator" value="&#xa;" />
+    <property name="ant.java.version" value="11" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="11.0.6+10-post-Ubuntu-1ubuntu118.04.1" />
+    <property name="user.name" value="oem" />
+    <property name="ant.file" value="/home/oem/eclipse-workspace/elmitriangle/build.xml" />
+    <property name="path.separator" value=":" />
+    <property name="os.version" value="5.3.0-40-generic" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="tests" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ant.core.lib" value="/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.version" value="11.0.6" />
+    <property name="user.dir" value="/home/oem/eclipse-workspace/elmitriangle" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="ant.home" value="/snap/eclipse/40/plugins/org.apache.ant_1.10.5.v20180808-0324" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="eclipse.pdebuild.scripts" value="/snap/eclipse/40/../../../home/oem/.eclipse/360744294_linux_gtk_x86_64/plugins/org.eclipse.pde.build_3.10.300.v20190305-0856/scripts" />
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib:/home/oem/.eclipse/360744294_linux_gtk_x86_64/configuration/org.eclipse.osgi/370/0/.cp" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vendor" value="Ubuntu" />
+    <property name="java.vm.version" value="11.0.6+10-post-Ubuntu-1ubuntu118.04.1" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.version" value="55.0" />
+  </properties>
+  <testcase classname="TPtraingle" name="testn" time="0.004" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
